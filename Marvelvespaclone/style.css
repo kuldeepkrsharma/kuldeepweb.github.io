@@ -1,0 +1,40 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.hero
+{
+   background-image: url("tony02.jpg");
+   background-size: cover;
+   height: 105vh;
+}
+
+.ironman
+{
+    position: relative;
+    
+
+}
+.section-2
+{
+    background-color: #231f20;
+}
+@media screen and (min-width:992px)
+{
+    .text-m
+    {
+        position: absolute;
+        top:50%;
+    }    
+}
+
+.section-5
+{
+    background-color: #f7f7f7;
+  
+}
+.footer li
+{
+    list-style: none;
+}

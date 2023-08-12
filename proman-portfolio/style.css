@@ -1,0 +1,38 @@
+.hero
+{
+    height: 100vh;;
+}
+.aboutme
+{
+    margin-top: 40%;
+}
+.about-img
+{
+    border-radius: 10%;
+}
+
+.progress
+{
+    height: 5px !important; 
+    margin: 5px 0 5px 0;   
+}
+
+hr
+{
+    color: #000 !important;
+}
+
+
+.icon
+{
+    content: "";
+    background-color: #007BFF;
+    width: 120px;
+    height: 120px;
+    
+}
+
+.services
+{
+    background-color: #ffd967;
+}
