@@ -1,0 +1,31 @@
+*
+{
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.menu
+{
+
+}
+.sidebar
+{
+    margin-top: -26px;
+    position: fixed;
+    font-size: 30px;
+    background-color: aliceblue ;
+    padding: 40px;;
+    width: 200px;
+    height: 100vh;;
+    z-index: 1;;
+}
+
+
+.pagin
+{
+    margin: 50px 0px 50px 0px;
+}
+.blog:hover
+{
+    background-color: rgb(232, 232, 232);
+
+}

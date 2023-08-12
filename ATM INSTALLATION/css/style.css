@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body {
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Nunito', sans-serif !important;
+
+}
+
+a {
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Nunito', sans-serif !important;
+}
+
+
+.apply-btn
+{
+  background-image: linear-gradient(to right, #f8a830, #fb6320);
+  color: white;
+  border-radius: 10px;
+
+}
+
+
+
+.page-heading::before
+{
+  position: absolute;
+  background-image: url("../images/poster/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%) blur(2px);
+  content: "";
+  width: 100%;
+  height: 100%;;
+  z-index: -1;
+}
+.page-heading
+{
+  position: relative;
+  height: 250px;
+
+}
+
+.page-heading .container .text-center
+{
+  color: white !important;
+}
+
+.nav-item a::before
+{
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-image: linear-gradient(to right, #f8a830, #fb6320);
+  top: 33px  ;
+  transition: 0.4s;
+}
+.nav-item:hover a::before
+{
+  width:78%;
+}
+
+.nav-item a
+{
+  position: relative;
+}
+@media only screen and (max-width: 1000px) {
+  .nav-item a::before
+  {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-image: linear-gradient(to right, #f8a830, #fb6320);
+    top: 30px  ;
+    transition: 0.4s;
+  }
+  .nav-item:hover a::before
+  {
+    width:10%;
+  }
+
+  .nav-item a
+  {
+    position: relative;
+  }
+  .apply-btn
+  {
+
+  }
+}
+.hm-hero {
+    background-image: linear-gradient(to right, #f8a830, #fb6320);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.docs
+{
+  background-image: linear-gradient(to right, #f8a830, #fb6320);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.docs .container .row .col-lg-6 ,.docs .container .row .col-lg-6 h5
+{
+  color:white;
+}
+
+.owner
+{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact
+{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* background-image: linear-gradient(to right, #f8a830, #fb6320); */
+   background-color: black;
+  background-image: url("../images/contact/mail.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.contact .overlay
+{
+  position: absolute;
+  background-color: #000;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  opacity: 0.5  ;
+
+}
+
+.btn
+{
+  font-weight: bold;
+}
+
+.contact-form input
+{
+  border-radius: 30px;
+}
+
+.contact-icn
+{
+
+font-size: 130px !important;
+
+}
+.footer
+{
+  padding-top: 100px;
+  background-color: #000;
+}
+
+li
+{
+  list-style: none;
+}
+.atm-list li::before
+{
+  content: "\203A";
+  margin-right: 3px;
+}
+
+
+.footer-list li
+{
+  list-style: none;
+  margin-left: -50px;
+
+}
+.footer-list li a
+{
+  color: white;
+}
+.footer-list li a:hover
+{
+  color: #dbc6a7;
+}
+
+.footer-list li a::before
+{
+  content: "\203A";
+  margin-right: 3px;
+}
+.copyright::before
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  content: "";
+  height: 0.5px;
+  width: 100%;
+}
+.copyright
+{
+  position: relative;
+  text-align: center;
+  background-color: #010101;
+  padding: 10px 10px 1px 10px;;
+  color: white;
+}

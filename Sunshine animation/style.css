@@ -1,0 +1,149 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  background-color: #87CEEB;
+}
+.container
+{
+  overflow: hidden;
+}
+.cloud
+{
+  padding: 30px;
+}
+.sun
+{
+  position: relative;
+  content: "";
+  width: 150px;
+  height: 150px;
+  background-color: #ffd000;
+  margin-left: 39.438rem;
+  border-radius: 75px;
+
+}
+.sun .box3
+{
+  position: absolute;
+  top: 5px;
+  left:5px;
+  content: "";
+  width: 140px;
+  height: 140px;
+  background-color: #ffda33 ;
+  z-index: -1;
+  box-shadow: 0px 0px 15px 3px rgba(255,218,51,1);
+  animation: rot1 10s infinite;
+
+}
+.sun .box2
+{
+  position: absolute;
+  top: 5px;
+  left:5px;
+  content: "";
+  width: 140px;
+  height: 140px;
+  background-color: #ffda33 ;
+  z-index: -1;
+  box-shadow: 0px 0px 15px 3px rgba(255,218,51,1);
+
+  animation: rot2 10s infinite;
+}
+.sun .box1
+{
+  position: absolute;
+  top: 5px;
+  left:5px;
+  content: "";
+  width: 140px;
+  height: 140px;
+  background-color: #ffda33 ;
+  z-index: -1;
+  box-shadow: 0px 0px 15px 3px rgba(255,218,51,1);
+
+  animation: rot3 10s infinite;
+}
+@keyframes rot1 {
+  0%
+  {
+    transform: rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rot2 {
+  0%
+  {
+    transform: rotate(30deg);
+  }
+  100%
+  {
+    transform: rotate(390deg);
+  }
+}
+@keyframes rot3 {
+  0%
+  {
+    transform: rotate(60deg);
+  }
+  100%
+  {
+    transform: rotate(420deg);
+  }
+}
+
+
+
+.b
+{
+  position: relative;
+  left: -20rem;
+  background-color: white;
+  content: "";
+  width: 15rem;
+  height: 6.5rem;
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  z-index: -1;
+  animation: moveleft 40s infinite;
+  opacity: 50%;
+}
+.b::before
+{
+  position: absolute;
+    background-color: white;
+    content: "";
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius:3.25rem;
+    top:-25px;
+    left:15%;
+}
+.b::after
+{
+  position: absolute;
+    background-color: white;
+    content: "";
+    width: 9.375rem;
+    height: 9.375rem;
+    border-radius: 4.688rem;
+    top:-50px;
+    left:30%;
+}
+@keyframes moveleft {
+  0%
+  {
+    transform: translateX(-20rem);
+  }
+  100%
+  {
+    transform: translateX(160rem);
+  }
+}
