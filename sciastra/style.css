@@ -1,0 +1,68 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+}
+.display-3
+{
+    background: #234EB0;
+    background: -webkit-linear-gradient(90.23deg, #234EB0 2.75%, #B656E2 104.73%);
+    background: -moz-linear-gradient(90.23deg, #234EB0 2.75%, #B656E2 104.73%);
+    background: linear-gradient(90.23deg, #234EB0 2.75%, #B656E2 104.73%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-size: 35px;
+    padding-bottom: 20px;;
+    background: #234EB0;
+background: -webkit-linear-gradient(90.23deg, #234EB0 2.75%, #B656E2 104.73%);
+background: -moz-linear-gradient(90.23deg, #234EB0 2.75%, #B656E2 104.73%);
+background: linear-gradient(90.23deg, #234EB0 2.75%, #B656E2 104.73%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.card
+{
+    background: linear-gradient(90.23deg, #234EB0 2.75%, #B656E2 104.73%);
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+.card-body p
+{
+    font-size: 20px;
+    
+}
+.butn
+{
+    /* border: solid;
+    border-radius: 20px;
+    
+    border-color: linear-gradient(90.23deg, #234EB0 2.75%, #B656E2 104.73%); */
+    border-radius: 100rem;
+    margin: 2px;
+    padding: 0.5rem 1rem;
+    color: #234EB0;
+    font-size: medium;
+    /* padding: 0.5rem 3rem; */
+    
+    /* box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5); */
+    border: solid 1px transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(89.75deg, #234EB0 0.16%, #B656E2 99.78%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    position: relative;
+    font-weight: 600;
+    border: 2px solid;
+    border-image-source: linear-gradient(92.45deg, #234EB0 0.9%, #B656E2 102.28%);
+    
+}
+
+.mentors p
+{
+    padding: 0%;
+    margin: 0;
+}
