@@ -2,275 +2,145 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="index.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-	<title>Kuldeep</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-	<nav>
-		<div class="heading">Welcome</div>
-	</nav>
+  <nav class="animate__animated animate__backInDown">
+    <div class="brand">Kuldeep</div>
+    <ul class="list">
+      <li>Home</li>
+      <li>About</li>
+      <li>Tech stack</li>
+      <li>Projects</li>
+      <li>Contact</li>
+      <li>Github</li>
+      <li>Linked In</li>
+    </ul>
+  </nav>
+  <div class="hero">
+    <div class="intro animate__animated animate__fadeInUp">
+      Hi 👋,
+      <div>
+        My name is Kuldeep
+        
+      </div>
+      <div>
 
+        
+        I build web for u
+      </div>
+    </div>
+    <img src="kuldeep.png" alt="" class="introimg animate__animated animate__fadeInUp" />
+  </div>
+  <div>
+    <h3 class="heading-title  animate__animated animate__fadeInUp wow" data-wow-delay="0.5s">Tech stack</h3>
+    <p class="text-center subheading  animate__animated animate__fadeInUp wow" data-wow-delay="1s">
+      Techs i have learnt and implemented in the recent years
+    </p>
+    <div class="tech-stack">
+      <div class="tech-img">
+        <img src="html.svg" class="tech-image animate__animated animate__fadeInUp wow" data-wow-delay="0.2s"/>
+      </div>
+      <div class="tech-img">
+        <img src="css.svg" class="tech-image animate__animated animate__fadeInUp wow" data-wow-delay="0.3s"/>
+      </div>
+      <div class="tech-img">
+        <img src="javascript.svg" class="tech-image animate__animated animate__fadeInUp wow" data-wow-delay="0.4s"/>
+      </div>
+      <div class="tech-img">
+        <img src="Bootstrap.svg" class="tech-image animate__animated animate__fadeInUp wow" data-wow-delay="0.5s"/>
+      </div>
+      <div class="tech-img">
+        <img src="react.svg" class="tech-image animate__animated animate__fadeInUp wow" data-wow-delay="0.6s"/>
+      </div>
+      <div class="tech-img">
+        <img src="github.svg" class="tech-image animate__animated animate__fadeInUp wow" data-wow-delay="0.7s"/>
+      </div>
+      <div class="tech-img">
+        <img src="selenium.svg" class="tech-image animate__animated animate__fadeInUp wow" data-wow-delay="0.8s"/>
+      </div>
+      <div class="tech-img">
+        <img src="specflow.png" class="tech-image animate__animated animate__fadeInUp wow" data-wow-delay="0.9s"/>
+      </div>
+      <div class="tech-img">
+        <img src="csharp.svg" class="tech-image animate__animated animate__fadeInUp wow" data-wow-delay="1.0s"/>
+      </div>
+      <div class="tech-img">
+        <img src="zap.png" class="tech-image animate__animated animate__fadeInUp wow" data-wow-delay="1.1s"/>
+      </div>
+      
 
-	<div class="line" id="Home">
-		<div class="side1">
-			<h1>Kuldeep Kumar Sharma</h1>
+    </div>
+  </div>
+  <div>
+    <h3 class="heading-title animate__animated animate__fadeInUp wow" >Projects</h3>
+    <p class="text-center subheading animate__animated animate__fadeInUp wow" data-wow-delay="0.1s" >
+      Things i have built or volunteered to build so far
+    </p>
+    <div class="projects" id="projects1">
+    </div>
+  </div>
+  </div>
+  <hr />
+  <footer>
+    <div>
+      <div class="footer-links">Kuldeep</div>
+      <div>
+        <div class="footer-links">
+          <a href="tel:9504152977">
+            
+            +91-9504152977
+          </a>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:kuldeepkrsharma00@gmail.com">
+          kuldeepkrsharma00@gmail.com
+          </a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/kuldeepkrsharma/">linkedin</a>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/kuldeepkrsharma">
+            git Hub
+          </a>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
 
-		</div>
-		<div class="side2">
-			<img src="portfolio/man_smoke.jpg" width="500">
-		</div>
-	</div>
+  
+  <div class="mouse-pointer" id="pointer">
+  </div>
+  
+  <div class="top-pointer" id="top" onclick="scrolltop()">
+    <img src="up.svg" class="up"/>
+  </div>
 
-	<section class="about" id="My Projects">
-		<div class="content">
-			<center>
-				<h2>My works</h2>
-			</center>
-			<div class="boxes">
-
-
-
-				<div class="box">
-					<div class="topic">
-						<a href="http://117.242.158.195/" target="_blank">
-							Jharkhand Electricity board new website
-						</a>
-					</div>
-					<p>
-
-					</p>
-				</div>
-				<div class="box">
-					<div class="topic">
-						<a href="https://one-fsqs.vercel.app/" target="_blank">
-							React Visual dashboard 
-						</a>
-					</div>
-					<p>
-
-					</p>
-				</div>
-				<div class="box">
-					<div class="topic">
-						<a href="sciastra" target="_blank">
-							SCIASTRA
-						</a>
-					</div>
-					<p>
-
-					</p>
-				</div>
-				<div class="box">
-					<div class="topic">
-						<a href="ADHAWANSMAIN" target="_blank">
-							ADHAWANS MAIN
-						</a>
-					</div>
-					<p>
-
-					</p>
-				</div>
-
-
-				<div class="box">
-					<div class="topic">
-						<a href="ATMINSTALLATION" target="_blank">
-							ATM INSTALLATION
-						</a>
-					</div>
-					<p>
-
-					</p>
-				</div>
-
-
-				<div class="box">
-					<div class="topic">
-						<a href="Basiclandingpage" target="_blank">
-							Basic landing page
-						</a>
-					</div>
-					<p>
-
-					</p>
-				</div>
-
-
-				<div class="box">
-					<div class="topic">
-						<a href="Marvelvespaclone" target="_blank">
-							Marvelvespaclone
-						</a>
-					</div>
-					<p>
-
-					</p>
-				</div>
-
-
-				<div class="box">
-					<div class="topic">
-						<a href="Rimobit-Webpage" target="_blank">
-							Rimobit-Webpage
-						</a>
-					</div>
-					<p>
-
-					</p>
-				</div>
-
-
-				<div class="box">
-					<div class="topic">
-						<a href="Sunshineanimation" target="_blank">
-							Sunshine animation
-						</a>
-					</div>
-					<p>
-
-					</p>
-				</div>
-
-
-				<div class="box">
-					<div class="topic">
-						<a href="arrowloadinganimation" target="_blank">
-							arrow loading animation
-						</a>
-					</div>
-					<p>
-
-					</p>
-				</div>
-
-
-				<div class="box">
-					<div class="topic">
-						<a href="foodblog" target="_blank">
-							food blog
-						</a>
-					</div>
-					<p>
-
-					</p>
-				</div>
-
-
-				<div class="box">
-					<div class="topic">
-						<a href="interiordesign" target="_blank">
-							interior design
-						</a>
-					</div>
-					<p>
-
-					</p>
-				</div>
-
-
-				<div class="box">
-					<div class="topic">
-						<a href="portfolio" target="_blank">
-							portfolio
-						</a>
-					</div>
-					<p>
-
-					</p>
-				</div>
-
-
-				<div class="box">
-					<div class="topic">
-						<a href="proman-portfolio" target="_blank">
-							proman-portfolio
-						</a>
-					</div>
-					<p>
-
-					</p>
-				</div>
-
-
-				<div class="box">
-					<div class="topic">
-						<a href="sunanimation" target="_blank">
-							sun animation
-						</a>
-					</div>
-					<p>
-
-					</p>
-				</div>
-
-			</div>
-		</div>
-	</section>
-
-	<!--	<section class="contact" id="contact">-->
-	<!--		<div class="content">-->
-	<!--			<div class="title"><span>Sign Up</span></div>-->
-	<!--			<div class="contactMenu">-->
-	<!--				<div class="input1">-->
-	<!--					<div class="label1">Your Name</div>-->
-	<!--					<div class="input2">-->
-	<!--						<input type="text"-->
-	<!--							placeholder="Enter your Name here">-->
-	<!--					</div>-->
-	<!--					<div class="label1">-->
-	<!--						<label>Your Email</label>-->
-	<!--					</div>-->
-	<!--					<div class="input2">-->
-	<!--						<input type="text"-->
-	<!--							placeholder="Enter your Email here">-->
-	<!--					</div>-->
-	<!--					<div class="label1">-->
-	<!--						<label>Your Password</label>-->
-	<!--					</div>-->
-	<!--					<div class="input2">-->
-	<!--						<input type="text"-->
-	<!--							placeholder="Enter your Password here">-->
-	<!--					</div>-->
-	<!--					<div class="button">-->
-	<!--						<button>Sign Up</button>-->
-	<!--					</div>-->
-	<!--				</div>-->
-	<!--				<div class="input3">-->
-	<!--					<div class="rightside1">-->
-	<!--						<div class="title1">-->
-	<!--							<span>-->
-	<!--								Contact Us-->
-	<!--							</span>-->
-	<!--						</div>-->
-	<!--						<div class="content1">-->
-	<!--						    <a href="mailto:kuldeepkrsharma00@gmail.com">kuldeepkrsharma00@gmail.com</a>-->
-
-	<!--						</div>-->
-	<!--						<div class="title1">-->
-	<!--							<span>More Information</span>-->
-	<!--						</div>-->
-	<!--						<div class="content1">-->
-	<!--Currently working as a software trainee at Nathcorp Inc. with working related fields such as ASP .NET MVC, Office 365.-->
-	<!--Having hands-on experience in creating and executing test scenarios and test cases for web, mobile, and desktop applications. I am proficient in test automation using Selenium and Appium, as well as desktop automation tools. My knowledge of programming languages and testing frameworks enables me to write robust and efficient automated tests, test scenarios and test cases.-->
-	<!--Skilled in Core java, HTML, JavaScript, CSS, and PHP along with good knowledge in frameworks such as Bootstrap, W3.css. Eager to learn new skills and help the organization in the development and deployment of websites. Worked with PHP framework Laravel, Animate.css along with wow.js-->
-	<!--						</div>-->
-	<!--					</div>-->
-	<!--				</div>-->
-	<!--			</div>-->
-	<!--		</div>-->
-	<!--	</section>-->
-	<!-- Footer section -->
-	<footer>
-
-	</footer>
-	<script src="index.js"></script>
 </body>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <script src="components.js"></script>
+  
+
+  <script src="wow.js"></script>
+  <script>
+  new WOW().init();
+  </script>
 </html>
