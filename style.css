@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
-
+@import url('https://fonts.cdnfonts.com/css/cyborg');
+:root {
+  --text-color: rgb(0, 215, 215);
+}
 body {
   /* background-color: #191919; */
-  background-color: #101010;
-  color: #fff;
+  background-color: #1b1010;
+  color: var(--text-color);
   margin: 20px;
 }
 nav {
@@ -41,6 +44,7 @@ ul.list {
     text-align: center;
     font-size: 48px !important;
     font-weight: bold;
+                         
 }
 .introimg{
     margin: auto;
@@ -61,6 +65,7 @@ li {
 .intro {
   font-size: 58px;
   font-weight: bold;
+  font-family: 'Cyborg', sans-serif;
 }
 .heading-title {
   font-size: 48px;
@@ -86,6 +91,15 @@ li {
   margin: 10px;
   overflow: hidden;
   transition: 0.3s;
+  color: #fff;
+}
+.box a{
+  
+  color: #fff;
+}
+.box a:hover{
+  
+  color: #fff;
 }
 .box:hover {
   /* box-shadow: 15px 28px 30px 0px rgba(160, 255, 255, 0.25); */
@@ -96,13 +110,15 @@ li {
   padding: 20px;
 }
 a {
-  color: #fff;
+  color: var(--text-color);
+
   font-weight: lighter;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
-  color: #fff;
+  color: var(--text-color);
+
 }
 .projects {
   display: flex;
@@ -117,6 +133,8 @@ a:hover {
   font-size: 28px;
   font-weight: 500;
   line-height: 26px;
+  
+
 }
 .project-desc {
   /* font-size: 18px; */
@@ -217,7 +235,8 @@ footer div {
   top: 0;
   height: 490%;
   width: 140%;
-  background: #78c7d2;
+  /* background: #78c7d2; */
+  background: var(--text-color);
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
