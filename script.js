@@ -3,15 +3,15 @@ var myDiv = document.getElementById('pointer');
 
 // Function to update the mouse coordinates
 function updateCoordinates(event) {
-    var x = event.clientX + window.scrollX;
-    var y = event.clientY + window.scrollY;
+    var x = event.clientX + window.scrollX - 15;
+    var y = event.clientY + window.scrollY - 15;
     // Set the top and left properties
     setTimeout(()=>{
         myDiv.style.top = y + 'px';
         myDiv.style.left = x + 'px';
         // console.log("x",x)
         // console.log("y",y)
-    }, 100);
+    }, 200);
     
 }
 
