@@ -112,11 +112,11 @@ detail.map((item,index)=>{
       </div>
     <div class="projects-link">
       <a href="#" id="previewlink${index}" target="_blank">
-        <img src="link.svg" class="project-svg"></i>
+        <img src="svg/link.svg" class="project-svg"></i>
         
         Live preview</a>
         <a href="#" id="githubcodelink${index}">
-          <img src="github2.svg" class="project-svg"></i>
+          <img src="svg/github2.svg" class="project-svg"></i>
           View code</a>
         </div>
     </div>
