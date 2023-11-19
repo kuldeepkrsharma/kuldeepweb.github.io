@@ -1,94 +1,129 @@
 const detail = [
-    
-      {
-        "img": "images/jbvnl.png",
-        "title": "JBVNL Project",
-        "description": "JBVNL is the state-owned electricity distribution company in the Indian state of Jharkhand. Its primary responsibility is to distribute electricity to the consumers in the state and manage the power distribution network.<br><br>",
-        "tech": "Html, CSS, JS, PHP, LARAVEL",
-        "previewlink": "http://117.242.158.195/",
-        "githubcodelink": "#"
-      },
-      {
-        "img": "images/reactdashboard.png",
-        "title": "React Dashboard Project",
-        "description": "The Sales Data Visualization Dashboard is a web-based application developed using React, designed to provide a comprehensive and visually appealing representation of one year's sales data. This project aims to empower users with insightful analytics and a user-friendly interface.",
-        "tech": "Html, CSS, JS, React, Apexchart",
-        "previewlink": "https://one-fsqs.vercel.app/",
-        "githubcodelink": "https://github.com/kuldeepkrsharma/one/"
-      },
-      {
-        "img": "images/Marvelvespa.png",
-        "title": "Marvel Vespa Project",
-        "description": "Introducing the Vespa Landing Page, a visually stunning and dynamic web experience inspired by the iconic Marvel Iron Man landing page. This project seamlessly blends the sleek design aesthetics of Iron Man with the timeless elegance of Vespa.",
-        "tech": "Html, CSS, JS, Bootstrap",
-        "previewlink": "https://kuldeepkrsharma.github.io/kuldeepweb.github.io/Marvelvespaclone",
-        "githubcodelink": "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/Marvelvespaclone"
-      },
-      {
-        "img": "images/Rimobitbooklandingpage.png",
-        "title": "Rimobit Book Landing Page Project",
-        "description": "Welcome to your digital gateway for the \"Digital Marketing Guide for Property Developers & Real Estate Agents.\" Unlock the transformative power of tailored digital marketing strategies for the real estate industry.",
-        "tech": "Html, CSS, JS , Bootstrap",
-        "previewlink": "https://kuldeepkrsharma.github.io/kuldeepweb.github.io/Rimobit-Webpage/",
-        "githubcodelink": "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/Rimobit-Webpage"
-      },
-      {
-        "img": "images/Arrowloading.png",
-        "title": "Arrow Loading Project",
-        "description": "Introducing the Arrow Loading Page, a visually dynamic and engaging way to signify page loading using CSS animations. This project employs left and right arrow animations in conjunction with a centered spinning box.",
-        "tech": "Html, CSS, JS",
-        "previewlink": "https://kuldeepkrsharma.github.io/kuldeepweb.github.io/arrowloadinganimation",
-        "githubcodelink": "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/arrowloadinganimation"
-      },
-      {
-        "img": "images/foodblog.png",
-        "title": "Food Blog Project",
-        "description": "Step into the savory world of Culinary Chronicles, where every dish tells a story. This Food Blog Landing Page is a tantalizing gateway to a culinary adventure, combining delightful visuals, mouthwatering photography.",
-        "tech": "Html, CSS, JS, Bootstrap, Animete css, wow.js",
-        "previewlink": "https://kuldeepkrsharma.github.io/kuldeepweb.github.io/foodblog",
-        "githubcodelink": "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/foodblog"
-      },
-      {
-        "img": "images/interiordesign.png",
-        "title": "Interior Design Project",
-        "description": "Step into the world of refined aesthetics with \"Elegance Unveiled,\" your gateway to a realm where design meets comfort. This Interior Design Landing Page is a curated experience that seamlessly blends sophistication, functionality, and inspiration.",
-        "tech": "Html, CSS, JS, Bootstrap, Animete css, wow.js",
-        "previewlink": "https://kuldeepkrsharma.github.io/kuldeepweb.github.io/interiordesign",
-        "githubcodelink": "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/interiordesign"
-      },
-      {
-        "img": "images/oldportfolio.png",
-        "title": "Old Portfolio Project",
-        "description": "mbark on a journey through the early days of web development with \"Timeless Beginnings,\" an Old Portfolio Project created at the start of the learning voyage in HTML and CSS, following the guidance of W3Schools. ",
-        "tech": "Html, CSS, JS, Bootstrap, Animete css, wow.js",
-        "previewlink": "https://kuldeepkrsharma.github.io/kuldeepweb.github.io/portfolio",
-        "githubcodelink": "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/portfolio"
-    },
-    {
-        "img": "images/sunanimation.png",
-        "title": "Sun Animation Project",
-        "description": "Bask in the warmth of \"Radiant Vibes,\" a delightful project that brings a beaming sun to life through the magic of CSS animations. This whimsical creation, showcasing a smiling sun, is a testament to the power of CSS in crafting engaging and lighthearted animations.",
-        "tech": "CSS",
-        "previewlink": "https://kuldeepkrsharma.github.io/kuldeepweb.github.io/sunanimation/",
-        "githubcodelink": "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/sunanimation"
-    },
-    {
-        "img": "images/ourteam.png",
-        "title": "Sciastra.com : Our Team Project",
-        "description": "Welcome to the landing page for [Your Team's Project Name], a collaborative effort that represents the innovation, expertise, and dedication of our talented team. This page serves as the gateway to our project, offering visitors a glimpse into the exciting world we've created.",
-        "tech": "Html, CSS, JS, Bootstrap",
-        "previewlink": "https://kuldeepkrsharma.github.io/kuldeepweb.github.io/sciastra/",
-        "githubcodelink": "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/sciastra"
-      }
-      // Add more projects as needed
-    
-    ]
+  {
+    img: "images/jbvnl.png",
+    title: "JBVNL Project",
+    description:
+      "JBVNL is the state-owned electricity distribution company in the Indian state of Jharkhand. Its primary responsibility is to distribute electricity to the consumers in the state and manage the power distribution network.<br><br>",
+    tech: "Html, CSS, JS, PHP, LARAVEL",
+    previewlink: "http://117.242.158.195/",
+    githubcodelink: "#",
+  },
+  {
+    img: "images/reactdashboard.png",
+    title: "React Dashboard Project",
+    description:
+      "The Sales Data Visualization Dashboard is a web-based application developed using React, designed to provide a comprehensive and visually appealing representation of one year's sales data. This project aims to empower users with insightful analytics and a user-friendly interface.",
+    tech: "Html, CSS, JS, React, Apexchart",
+    previewlink: "https://one-fsqs.vercel.app/",
+    githubcodelink: "https://github.com/kuldeepkrsharma/one/",
+  },
+  {
+    img: "images/Marvelvespa.png",
+    title: "Marvel Vespa Project",
+    description:
+      "Introducing the Vespa Landing Page, a visually stunning and dynamic web experience inspired by the iconic Marvel Iron Man landing page. This project seamlessly blends the sleek design aesthetics of Iron Man with the timeless elegance of Vespa.",
+    tech: "Html, CSS, JS, Bootstrap",
+    previewlink:
+      "https://kuldeepkrsharma.github.io/kuldeepweb.github.io/Marvelvespaclone",
+    githubcodelink:
+      "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/Marvelvespaclone",
+  },
+  {
+    img: "images/Rimobitbooklandingpage.png",
+    title: "Rimobit Book Landing Page Project",
+    description:
+      'Welcome to your digital gateway for the "Digital Marketing Guide for Property Developers & Real Estate Agents." Unlock the transformative power of tailored digital marketing strategies for the real estate industry.',
+    tech: "Html, CSS, JS , Bootstrap",
+    previewlink:
+      "https://kuldeepkrsharma.github.io/kuldeepweb.github.io/Rimobit-Webpage/",
+    githubcodelink:
+      "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/Rimobit-Webpage",
+  },
+  {
+    img: "images/Arrowloading.png",
+    title: "Arrow Loading Project",
+    description:
+      "Introducing the Arrow Loading Page, a visually dynamic and engaging way to signify page loading using CSS animations. This project employs left and right arrow animations in conjunction with a centered spinning box.",
+    tech: "Html, CSS, JS",
+    previewlink:
+      "https://kuldeepkrsharma.github.io/kuldeepweb.github.io/arrowloadinganimation",
+    githubcodelink:
+      "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/arrowloadinganimation",
+  },
+  {
+    img: "images/foodblog.png",
+    title: "Food Blog Project",
+    description:
+      "Step into the savory world of Culinary Chronicles, where every dish tells a story. This Food Blog Landing Page is a tantalizing gateway to a culinary adventure, combining delightful visuals, mouthwatering photography.",
+    tech: "Html, CSS, JS, Bootstrap, Animete css, wow.js",
+    previewlink:
+      "https://kuldeepkrsharma.github.io/kuldeepweb.github.io/foodblog",
+    githubcodelink:
+      "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/foodblog",
+  },
+  {
+    img: "images/interiordesign.png",
+    title: "Interior Design Project",
+    description:
+      'Step into the world of refined aesthetics with "Elegance Unveiled," your gateway to a realm where design meets comfort. This Interior Design Landing Page is a curated experience that seamlessly blends sophistication, functionality, and inspiration.',
+    tech: "Html, CSS, JS, Bootstrap, Animete css, wow.js",
+    previewlink:
+      "https://kuldeepkrsharma.github.io/kuldeepweb.github.io/interiordesign",
+    githubcodelink:
+      "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/interiordesign",
+  },
+  {
+    img: "images/oldportfolio.png",
+    title: "Old Portfolio Project",
+    description:
+      'mbark on a journey through the early days of web development with "Timeless Beginnings," an Old Portfolio Project created at the start of the learning voyage in HTML and CSS, following the guidance of W3Schools. ',
+    tech: "Html, CSS, JS, Bootstrap, Animete css, wow.js",
+    previewlink:
+      "https://kuldeepkrsharma.github.io/kuldeepweb.github.io/portfolio",
+    githubcodelink:
+      "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/portfolio",
+  },
+  {
+    img: "images/sunanimation.png",
+    title: "Sun Animation Project",
+    description:
+      'Bask in the warmth of "Radiant Vibes," a delightful project that brings a beaming sun to life through the magic of CSS animations. This whimsical creation, showcasing a smiling sun, is a testament to the power of CSS in crafting engaging and lighthearted animations.',
+    tech: "CSS",
+    previewlink:
+      "https://kuldeepkrsharma.github.io/kuldeepweb.github.io/sunanimation/",
+    githubcodelink:
+      "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/sunanimation",
+  },
+  {
+    img: "images/ourteam.png",
+    title: "Sciastra.com : Our Team Project",
+    description:
+      "Welcome to the landing page for [Your Team's Project Name], a collaborative effort that represents the innovation, expertise, and dedication of our talented team. This page serves as the gateway to our project, offering visitors a glimpse into the exciting world we've created.",
+    tech: "Html, CSS, JS, Bootstrap",
+    previewlink:
+      "https://kuldeepkrsharma.github.io/kuldeepweb.github.io/sciastra/",
+    githubcodelink:
+      "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/sciastra",
+  },
+  {
+    img: "images/Eduteach.png",
+    title: "Eduteach: a edtech startup clone",
+    description:
+      "Empower your React journey with EDUTEACH. Master React through interactive modules, real-world projects, and expert-led tutorials.",
+    tech: "Html, CSS, JS, Bootstrap,React",
+    previewlink: "https://eduteach.vercel.app/",
+    githubcodelink: "https://github.com/kuldeepkrsharma/eduteach",
+  },
+  // Add more projects as needed
+];
 
 let divelements = ``;
 
-detail.map((item,index)=>{
-    let time = index * (1/10);
-    divelements = divelements + `
+detail.map((item, index) => {
+  let time = index * (1 / 10);
+  divelements =
+    divelements +
+    `
     <div class="box animate__animated animate__fadeInUp wow" data-wow-delay="${time}s">
     <div class="img">
       <img src="#" alt="" id="img${index}" />
@@ -97,16 +132,13 @@ detail.map((item,index)=>{
       <p class="project-title" id="title${index}">Project title</p>
       <div class="project-desc">
         <p id="desc${index}">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-          fugiat minima nam quam nostrum laboriosam suscipit! Accusamus
-          suscipit debitis,
+        
         </p>
         <p >
           <b>Tech stack:</b>
           <span id="techstack${index}">
     
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
-            quos voluptatibus
+          
           </span>
         </p>
       </div>
@@ -121,17 +153,20 @@ detail.map((item,index)=>{
         </div>
     </div>
     </div>
-    `
-})
+    `;
+});
 
-document.getElementById("projects1").innerHTML=divelements;
+document.getElementById("projects1").innerHTML = divelements;
 
-for(let i=0;i<detail.length;i++)
-{
-    document.getElementById("img"+i).setAttribute("src",detail[i].img) ;
-    document.getElementById("title"+i).innerHTML=detail[i].title;
-    document.getElementById("desc"+i).innerHTML = detail[i].description;
-    document.getElementById("techstack"+i).innerHTML = detail[i].tech;
-    document.getElementById("previewlink"+i).setAttribute("href",detail[i].previewlink) ;
-    document.getElementById("githubcodelink"+i).setAttribute("href",detail[i].githubcodelink) ;    
+for (let i = 0; i < detail.length; i++) {
+  document.getElementById("img" + i).setAttribute("src", detail[i].img);
+  document.getElementById("title" + i).innerHTML = detail[i].title;
+  document.getElementById("desc" + i).innerHTML = detail[i].description;
+  document.getElementById("techstack" + i).innerHTML = detail[i].tech;
+  document
+    .getElementById("previewlink" + i)
+    .setAttribute("href", detail[i].previewlink);
+  document
+    .getElementById("githubcodelink" + i)
+    .setAttribute("href", detail[i].githubcodelink);
 }
