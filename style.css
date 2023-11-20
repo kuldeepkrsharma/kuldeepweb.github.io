@@ -2,11 +2,18 @@
 @import url('https://fonts.cdnfonts.com/css/cyborg');
 :root {
   --text-color: rgb(0, 215, 215);
+  --aqua-color: rgb(0, 215, 215);
+  --main-background: #1b1010;
+  
 }
 body {
   /* background-color: #191919; */
-  background-color: #1b1010;
+  background-color: var(--main-background);
   color: var(--text-color);
+  overflow-x: hidden;
+}
+.container-div
+{
   margin: 20px;
 }
 nav {
@@ -17,43 +24,6 @@ nav {
 ul.list {
   list-style: none;
   display: flex;
-}
-@media (max-width: 576px) {
-  nav {
-    display:none;
-  }
-  .brand {
-    height: 10px;
-  }
-  .top-pointer
-  {
-    display: none;
-  }
-  footer div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-  }
-  .hero{
-    flex-direction: column-reverse;
-    justify-content: center;
-    margin-bottom: 100px;
-}
-.intro {
-    margin: 20px 0 0 0;
-    text-align: center;
-    font-size: 48px !important;
-    font-weight: bold;
-                         
-}
-.introimg{
-    margin: auto;
-    max-width: 200px;
-}
-.tech-stack{
-    padding: 0 !important;
-    margin-bottom: 100px;
-  }
 }
 li {
   margin: 20px;
@@ -71,6 +41,12 @@ li {
   font-size: 48px;
   font-weight: 700;
   text-align: center;
+}
+.heading-title2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--main-background);
 }
 .tech-stack {
   padding: 80px;
@@ -92,6 +68,8 @@ li {
   overflow: hidden;
   transition: 0.3s;
   color: #fff;
+  box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.493);
+  
 }
 .box a{
   
@@ -102,29 +80,38 @@ li {
   color: #fff;
 }
 .box:hover {
-  /* box-shadow: 15px 28px 30px 0px rgba(160, 255, 255, 0.25); */
+  box-shadow: 15px 28px 30px 0px rgba(0, 0, 0, 0.35);
   /* -webkit-box-shadow: 0px 10px 20px 0px rgba(255,255,255,0.25);
--moz-box-shadow: 0px 10px 20px 0px rgba(255,255,255,0.25); */
+  -moz-box-shadow: 0px 10px 20px 0px rgba(255,255,255,0.25); */
 }
 .box-body {
   padding: 20px;
 }
 a {
   color: var(--text-color);
-
+  
   font-weight: lighter;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
   color: var(--text-color);
-
+  
 }
 .projects {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  
 }
+.my-projects
+{
+  background-color: var(--aqua-color);
+  /* padding-top: 150px; */
+  padding-top: 80px;
+  position: relative;
+}
+
 .tech-img {
   width: 150px;
   padding: 20px;
@@ -134,7 +121,7 @@ a:hover {
   font-weight: 500;
   line-height: 26px;
   
-
+  
 }
 .project-desc {
   /* font-size: 18px; */
@@ -164,6 +151,11 @@ footer div {
   font-weight: 400;
   color: #a7a7a7;
 }
+.subheading2 {
+  font-size: 32px;
+  font-weight: 400;
+  color:#363636;
+}
 .mouse-pointer {
   position: absolute;
   z-index: -1;
@@ -177,7 +169,7 @@ footer div {
   box-shadow: 0px 0px 165px 86px rgba(87, 81, 81, 0.24);
   
   /* -webkit-box-shadow: -1px 2px 165px 86px rgba(221,212,212,0.34);
-    -moz-box-shadow: -1px 2px 165px 86px rgba(221,212,212,0.34); */
+  -moz-box-shadow: -1px 2px 165px 86px rgba(221,212,212,0.34); */
 }
 
 
@@ -249,7 +241,7 @@ footer div {
 }
 
 .up-circle{
-	background: linear-gradient(45deg, #00ffb6  0%, #000fa3 100%);
+  background: linear-gradient(45deg, #00ffb6  0%, #000fa3 100%);
 	animation: morph 8s ease-in-out infinite;
 	border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   height: 600px;
@@ -262,7 +254,87 @@ footer div {
   
 	/* box-shadow: 0 0 20px #000 */
 }
+.techstackdiv
+{
+  position: relative;
+}
+.box-animation
+{
+  position: absolute;
+  
+  
+}
+.animated-box {
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: #00ffb6;
+  
+}
 
+
+@media (max-width: 576px) {
+  nav {
+    display:none;
+  }
+  .brand {
+    height: 10px;
+  }
+  .top-pointer
+  {
+    display: none;
+  }
+  footer div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .hero{
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.intro {
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-size: 48px !important;
+    font-weight: bold;
+                         
+}
+.introimg{
+    margin: auto;
+    max-width: 200px;
+}
+.tech-stack{
+    padding: 0 !important;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 845px) {
+
+  .introimg{
+      margin: auto;
+      max-width: 300px;
+  }
+.intro {
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-size: 48px !important;
+    font-weight: bold;
+                         
+}
+.introimg{
+    margin: auto;
+    max-width: 200px;
+}
+.tech-stack{
+    padding: 0 !important;
+    margin-bottom: 100px;
+  }
+}
+
+/* animations */
 @keyframes morph {
 	0% {
 		border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;

@@ -137,8 +137,6 @@ detail.map((item, index) => {
         <p >
           <b>Tech stack:</b>
           <span id="techstack${index}">
-    
-          
           </span>
         </p>
       </div>
@@ -170,3 +168,5 @@ for (let i = 0; i < detail.length; i++) {
     .getElementById("githubcodelink" + i)
     .setAttribute("href", detail[i].githubcodelink);
 }
+
+
