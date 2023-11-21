@@ -1,3 +1,4 @@
+
 // Get the div element by its id
 var myDiv = document.getElementById('pointer');
 
@@ -23,3 +24,6 @@ function scrolltop()
     window.scrollTo(0, 0);
     console.log("scrolled")
 }
+
+
+

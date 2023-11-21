@@ -121,6 +121,11 @@ let divelements = ``;
 
 detail.map((item, index) => {
   let time = index * (1 / 10);
+  var windowWidth = window.innerWidth ;
+  if(windowWidth<800)
+  {
+    time=0.1;
+  }
   divelements =
     divelements +
     `
@@ -137,8 +142,6 @@ detail.map((item, index) => {
         <p >
           <b>Tech stack:</b>
           <span id="techstack${index}">
-    
-          
           </span>
         </p>
       </div>
@@ -170,3 +173,5 @@ for (let i = 0; i < detail.length; i++) {
     .getElementById("githubcodelink" + i)
     .setAttribute("href", detail[i].githubcodelink);
 }
+
+
