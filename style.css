@@ -163,10 +163,10 @@ footer div {
   width: 30px;
   height: 30px;
   content: "";
+  border:solid;
+  background-color:transparent;
   
-  background-color: rgba(160, 255, 255, 0.15);
-  
-  box-shadow: 0px 0px 165px 86px rgba(87, 81, 81, 0.24);
+  /* box-shadow: 0px 0px 165px 86px rgba(87, 81, 81, 0.24); */
   
   /* -webkit-box-shadow: -1px 2px 165px 86px rgba(221,212,212,0.34);
   -moz-box-shadow: -1px 2px 165px 86px rgba(221,212,212,0.34); */
@@ -258,18 +258,21 @@ footer div {
 {
   position: relative;
 }
-.box-animation
+
+.brand
 {
-  position: absolute;
-  
-  
+  font-size: 32px;
+  font-weight: bold;
 }
+
 .animated-box {
   display: block;
-  width: 5px;
-  height: 5px;
+  width: 9px;
+  height: 9px;
   background-color: #00ffb6;
-  
+  position: absolute;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  opacity: 0.4;
 }
 
 

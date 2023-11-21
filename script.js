@@ -1,3 +1,4 @@
+
 // Get the div element by its id
 var myDiv = document.getElementById('pointer');
 

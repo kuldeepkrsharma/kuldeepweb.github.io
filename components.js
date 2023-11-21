@@ -121,6 +121,11 @@ let divelements = ``;
 
 detail.map((item, index) => {
   let time = index * (1 / 10);
+  var windowWidth = window.innerWidth ;
+  if(windowWidth<800)
+  {
+    time=0.1;
+  }
   divelements =
     divelements +
     `
