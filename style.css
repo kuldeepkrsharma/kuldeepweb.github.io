@@ -10,10 +10,12 @@ body {
   /* background-color: #191919; */
   background-color: var(--main-background);
   color: var(--text-color);
-  overflow-x: hidden;
+  overflow-x: none;
+  
 }
 .container-div
 {
+  
   margin: 20px;
 }
 nav {
