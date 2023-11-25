@@ -11,6 +11,7 @@ body {
   background-color: var(--main-background);
   color: var(--text-color);
   overflow-x: none;
+  
 }
 .container-div
 {
