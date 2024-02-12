@@ -3,9 +3,18 @@ const detail = [
     img: "images/jbvnl.png",
     title: "JBVNL Project",
     description:
-      "JBVNL is the state-owned electricity distribution company in the Indian state of Jharkhand. Its primary responsibility is to distribute electricity to the consumers in the state and manage the power distribution network.<br><br>",
+      "JBVNL is the state-owned electricity distribution company in the Indian state of Jharkhand. Its primary responsibility is to distribute electricity to the consumers in the state and manage the power distribution network.<br><br><br>",
     tech: "Html, CSS, JS, PHP, LARAVEL",
     previewlink: "http://117.242.158.195/",
+    githubcodelink: "#",
+  },
+  {
+    img: "images/worthspace.png",
+    title: "Worthspace",
+    description:
+      "This is a website for a company called WorthSpace that provides interior design and construction services. They offer a variety of services, including home, office, shop, and showroom design. They also have a team of experienced architects, interior designers, and civil engineers.<br><br>",
+    tech: "Html, CSS, JS, PHP, React",
+    previewlink: "http://https://estimate.worthspace.com//",
     githubcodelink: "#",
   },
   {
@@ -116,7 +125,22 @@ const detail = [
   },
   // Add more projects as needed
 ];
-
+const techStackData = [
+  { src: "svg/html.svg", delay: "0.2s" },
+  { src: "svg/css.svg", delay: "0.3s" },
+  { src: "svg/javascript.svg", delay: "0.4s" },
+  { src: "svg/typescript.svg", delay: "0.4s" },
+  { src: "svg/Bootstrap.svg", delay: "0.5s" },
+  { src: "svg/greensock.svg", delay: "0.5s" },
+  { src: "svg/threejs.svg", delay: "0.5s" },
+  { src: "https://avatars.githubusercontent.com/u/37190687?s=48&v=4", delay: "0.6s" },
+  { src: "svg/react.svg", delay: "0.6s" },
+  { src: "svg/github.svg", delay: "0.7s" },
+  { src: "svg/selenium.svg", delay: "0.8s" },
+  { src: "specflow.png", delay: "0.9s" },
+  { src: "svg/csharp.svg", delay: "1.0s" },
+  { src: "zap.png", delay: "1.1s" }
+];
 let divelements = ``;
 
 detail.map((item, index) => {
@@ -175,3 +199,33 @@ for (let i = 0; i < detail.length; i++) {
 }
 
 
+function displayTechStack() {
+  const container = document.getElementById('tech-stack-container');
+  
+  techStackData.forEach(item => {
+    const techImgDiv = document.createElement('div');
+    techImgDiv.classList.add('tech-img');
+
+    const img = document.createElement('img');
+    img.src = item.src;
+    img.classList.add('tech-image', 'animate__animated', 'animate__fadeInUp', 'wow');
+    img.setAttribute('data-wow-delay', item.delay);
+
+    const boxAnimationDiv = document.createElement('div');
+    boxAnimationDiv.classList.add('box-animation');
+    
+    // Adding animated boxes
+    for (let i = 0; i < 4; i++) {
+      const animatedBox = document.createElement('div');
+      animatedBox.classList.add('animated-box');
+      boxAnimationDiv.appendChild(animatedBox);
+    }
+
+    techImgDiv.appendChild(img);
+    techImgDiv.appendChild(boxAnimationDiv);
+
+    container.appendChild(techImgDiv);
+  });
+}
+  // Call the function to display tech stack
+  displayTechStack();
