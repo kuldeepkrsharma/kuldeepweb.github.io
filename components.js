@@ -14,8 +14,17 @@ const detail = [
     description:
       "This is a website for a company called WorthSpace that provides interior design and construction services. They offer a variety of services, including home, office, shop, and showroom design. They also have a team of experienced architects, interior designers, and civil engineers.<br><br>",
     tech: "Html, CSS, JS, PHP, React",
-    previewlink: "http://https://estimate.worthspace.com//",
+    previewlink: "https://estimate.worthspace.com/",
     githubcodelink: "#",
+  },
+  {
+    img: "images/Eduteach.png",
+    title: "Eduteach: a edtech startup clone",
+    description:
+      "Empower your React journey with EDUTEACH. Master React through interactive modules, real-world projects, and expert-led tutorials.<br><br><br><br>",
+    tech: "Html, CSS, JS, Bootstrap,React",
+    previewlink: "https://eduteach.vercel.app/",
+    githubcodelink: "https://github.com/kuldeepkrsharma/eduteach",
   },
   {
     img: "images/reactdashboard.png",
@@ -114,15 +123,7 @@ const detail = [
     githubcodelink:
       "https://github.com/kuldeepkrsharma/kuldeepweb.github.io/tree/main/sciastra",
   },
-  {
-    img: "images/Eduteach.png",
-    title: "Eduteach: a edtech startup clone",
-    description:
-      "Empower your React journey with EDUTEACH. Master React through interactive modules, real-world projects, and expert-led tutorials.",
-    tech: "Html, CSS, JS, Bootstrap,React",
-    previewlink: "https://eduteach.vercel.app/",
-    githubcodelink: "https://github.com/kuldeepkrsharma/eduteach",
-  },
+
   // Add more projects as needed
 ];
 const techStackData = [
