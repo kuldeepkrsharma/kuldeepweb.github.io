@@ -142,6 +142,12 @@ const techStackData = [
   { src: "svg/csharp.svg", delay: "1.0s" },
   { src: "zap.png", delay: "1.1s" }
 ];
+const contact = [
+  { src: "svg/whatsapp.svg", delay: "0.2s",anchor:"https://wa.link/k4k9je" },
+  { src: "svg/linkedin.svg", delay: "0.3s",anchor:"https://www.linkedin.com/in/kuldeepkrsharma/" },
+  { src: "svg/upwork.svg", delay: "0.4s",anchor:"https://www.upwork.com/freelancers/kuldeeps97" },
+  { src: "svg/gmail.svg", delay: "0.5s",anchor:"mailto:kuldeepkrsharma00@gmail.com" },
+];
 let divelements = ``;
 
 detail.map((item, index) => {
@@ -200,10 +206,10 @@ for (let i = 0; i < detail.length; i++) {
 }
 
 
-function displayTechStack() {
-  const container = document.getElementById('tech-stack-container');
+function displayTechStack(idname,array) {
+  const container = document.getElementById(idname);
   
-  techStackData.forEach(item => {
+  array.forEach(item => {
     const techImgDiv = document.createElement('div');
     techImgDiv.classList.add('tech-img');
 
@@ -229,4 +235,24 @@ function displayTechStack() {
   });
 }
   // Call the function to display tech stack
-  displayTechStack();
+  displayTechStack("tech-stack-container",techStackData);
+  
+  function displayContacts(array) {
+    let contactElements = ``;
+  
+    array.forEach((item, index) => {
+      
+      contactElements +=
+        `<div class="contact-box animate__animated animate__fadeInUp wow" data-wow-delay="${item.delay}s">
+          <a href="${item.anchor}" target="_blank">
+            <img src="${item.src}" alt="Contact Icon" class="contact-icon" >
+          </a>
+        </div>`;
+    });
+  
+    document.getElementById("contact-container").innerHTML = contactElements;
+  }
+  
+  // Call the function to display contacts
+  displayContacts(contact);
+  

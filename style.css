@@ -10,8 +10,13 @@ body {
   /* background-color: #191919; */
   background-color: var(--main-background);
   color: var(--text-color);
-  overflow-x: none;
+  overflow-x:hidden;
   
+}
+.contact-icon
+{
+  height: 100px;
+  width: 100px;
 }
 .container-div
 {
@@ -157,6 +162,7 @@ footer div {
   font-size: 32px;
   font-weight: 400;
   color:#363636;
+  padding: 0 10px;
 }
 .mouse-pointer {
   position: absolute;
@@ -167,19 +173,15 @@ footer div {
   content: "";
   border:solid;
   background-color:transparent;
-  
-  /* box-shadow: 0px 0px 165px 86px rgba(87, 81, 81, 0.24); */
-  
-  /* -webkit-box-shadow: -1px 2px 165px 86px rgba(221,212,212,0.34);
-  -moz-box-shadow: -1px 2px 165px 86px rgba(221,212,212,0.34); */
 }
 
 
 .top-pointer {
+  cursor: pointer;
   position: fixed;
   bottom: 30px;
   right: 20px;
-  background-color: #888181;
+  background-color: #c9c8c8;
   width: 50px;
   height: 50px;
   padding: 2px;
@@ -189,7 +191,7 @@ footer div {
 .top-pointer:hover {
   background: #ffffff;
   transform: translateY(-10px);
-  padding: 0;
+  /* padding: 0; */
 }
 .up:hover {
   border-radius: 50px;
@@ -201,7 +203,6 @@ footer div {
 
 .btn {
   border: none;
-  
   text-align: center;
   cursor: pointer;
   text-transform: uppercase;
@@ -260,6 +261,13 @@ footer div {
 {
   position: relative;
 }
+.contact-div
+{
+  padding: 40px;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;}
 
 .brand
 {
