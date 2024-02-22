@@ -144,6 +144,7 @@ const techStackData = [
 ];
 const contact = [
   { src: "svg/whatsapp.svg", delay: "0.2s",anchor:"https://wa.link/k4k9je" },
+  { src: "https://upload.wikimedia.org/wikipedia/commons/6/60/Skype_logo_%282019%E2%80%93present%29.svg", delay: "0.2s",anchor:"https://join.skype.com/invite/pjUKGdxhoO3T" },
   { src: "svg/linkedin.svg", delay: "0.3s",anchor:"https://www.linkedin.com/in/kuldeepkrsharma/" },
   { src: "svg/upwork.svg", delay: "0.4s",anchor:"https://www.upwork.com/freelancers/kuldeeps97" },
   { src: "svg/gmail.svg", delay: "0.5s",anchor:"mailto:kuldeepkrsharma00@gmail.com" },
