@@ -27,9 +27,9 @@ document.addEventListener("DOMContentLoaded", function() {
         x: Math.random() * window.innerWidth - box.clientWidth, // Random horizontal position between -200 and 200
         y: Math.random() * 800 - 200, // Random vertical position between -200 and 200
         rotation: Math.random() * 360, // Random rotation between 0 and 360 degrees
-        duration: 20,
-        repeat: -1,
-        yoyo:true
+        duration: 40,
+        // repeat: -1,
+        // yoyo:true
       });
     
   });
